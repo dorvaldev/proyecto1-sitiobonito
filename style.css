@@ -1,0 +1,41 @@
+body {
+    font-family: System-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 25px;
+    background-color: rgb(44, 44, 44);
+}
+
+h1 {
+    color: #A5FF63;
+}
+
+p {
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#container p span {
+    display: block;
+}
+
+button {
+    background-color: #A5FF63;
+    border-radius: 12px;
+    border-color: #A5FF63;
+    margin-top: 10px;
+}
+
+#container {
+  display: flex;       /* Alinea la imagen y el párrafo de lado a lado */
+  align-items: center;
+  gap: 15px;
+}
+
+#container p {
+  margin: 0px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
